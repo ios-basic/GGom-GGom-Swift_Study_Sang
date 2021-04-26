@@ -11,7 +11,7 @@ import CoreData
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var memoList = [MemoData]() // 메모데이터가 여러개 저장될 배열 변수
+    var memolist = [MemoData]() // 메모데이터가 여러개 저장될 배열 변수
     // 왜 메모 데이터를 변수로 해야하고 상수로 지정하면 어떤 일이 일어날까?
     // memoList 타입이 배열타입이고 array 타입의 객체에 동적으로 아이템을 추가하기 위해서는 변수로 설정해야한다.
     
