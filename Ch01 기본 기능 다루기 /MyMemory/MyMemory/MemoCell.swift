@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MemoCellTableViewCell: UITableViewCell {
+class MemoCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
