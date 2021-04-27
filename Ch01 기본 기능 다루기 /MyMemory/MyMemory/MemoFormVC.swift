@@ -45,7 +45,7 @@ class MemoFormVC: UIViewController, UIImagePickerControllerDelegate, UINavigatio
         
         data.title = self.subject //제목
         data.contents = self.contents.text // 내용
-//        data.image = self.preview.image //이미지
+        data.image = self.preview.image // 이미지
         data.regdate = Date() // 작성 시각
         
         //3. 앱 델리게이트 객체 읽어서 memolist배열에 memodata객체 추가

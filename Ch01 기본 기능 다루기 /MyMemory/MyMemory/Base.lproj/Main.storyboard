@@ -38,21 +38,21 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2021-04-26 10:25" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="er1-K4-obw" userLabel="날짜">
-                                            <rect key="frame" x="312" y="10" width="71" height="60"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="65" id="fcg-xQ-oSU"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="글의 내용" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwo-wt-YKn">
                                             <rect key="frame" x="30" y="36" width="268" height="25"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="30" id="MbY-zm-Fmf"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2021-04-26 09:10:25" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="er1-K4-obw" userLabel="날짜">
+                                            <rect key="frame" x="306" y="10" width="76" height="60"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="65" id="fcg-xQ-oSU"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -89,8 +89,8 @@
                                                 <constraint firstAttribute="width" secondItem="lOx-DO-AHb" secondAttribute="height" multiplier="73:80" id="1ia-Gj-Zap"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="글의 제목" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mpN-jG-aVM">
-                                            <rect key="frame" x="83" y="11" width="220" height="20"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="글의 제목" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mpN-jG-aVM">
+                                            <rect key="frame" x="83" y="11" width="215" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="20" id="Omf-gh-NHi"/>
                                             </constraints>
@@ -98,21 +98,21 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021-04-26 10:25" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEI-Mp-WaM">
-                                            <rect key="frame" x="313" y="10" width="70" height="60"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="70" id="PdU-JP-LbD"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="글의 내용" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpM-ct-Cas">
-                                            <rect key="frame" x="83" y="36" width="220" height="25"/>
+                                            <rect key="frame" x="83" y="36" width="215" height="25"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="17" id="CE6-vd-NHi"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2021-04-26 09:10:25" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEI-Mp-WaM">
+                                            <rect key="frame" x="306" y="10" width="76" height="60"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="70" id="PdU-JP-LbD"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -163,7 +163,7 @@
         <!--메모 작성-->
         <scene sceneID="kKQ-ut-fQR">
             <objects>
-                <viewController id="RYO-bP-iXp" customClass="MemoFormVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MemoRead" id="RYO-bP-iXp" customClass="MemoFormVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="54O-wv-te0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -266,6 +266,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nwe-0g-Ffl"/>
+                    <connections>
+                        <outlet property="contents" destination="dfg-rR-8eH" id="N54-Iz-yAo"/>
+                        <outlet property="img" destination="e1R-1Y-EOx" id="8wJ-nx-Er1"/>
+                        <outlet property="subject" destination="frF-Ra-3Iy" id="3wO-wy-3qA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d9Z-1O-70M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
