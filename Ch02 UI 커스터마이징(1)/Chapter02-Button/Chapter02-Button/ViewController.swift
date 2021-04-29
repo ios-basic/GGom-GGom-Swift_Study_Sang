@@ -21,6 +21,14 @@ class ViewController: UIViewController {
         btn.center = CGPoint(x: self.view.frame.size.width / 2, y: 100)
         // 루트 뷰 버튼 추가
         self.view.addSubview(btn)
+        btn.addTarget(self, action: #selector(btnOnClick(_:)), for: .touchUpInside)
+    
     }
+    @objc func btnOnClick(_ sender: Any) {
+            // 호출한 객체가 버튼이라면
+            if let btn = sender as? UIButton {
+                btn.setTitle("클릭 되었습니다.", for: UIControl.State.normal)
+            }
+        }
 }
 
