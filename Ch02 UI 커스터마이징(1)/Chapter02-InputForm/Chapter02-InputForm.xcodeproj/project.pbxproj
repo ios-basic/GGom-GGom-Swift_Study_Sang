@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEF44DD7263BDB2700E80843 /* CustomFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF44DD6263BDB2700E80843 /* CustomFontViewController.swift */; };
+		CEF44DDA263BDB3000E80843 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF44DD9263BDB3000E80843 /* ReadViewController.swift */; };
 		CEF9B16B263A4DBD00266511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9B16A263A4DBD00266511 /* AppDelegate.swift */; };
 		CEF9B16D263A4DBD00266511 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9B16C263A4DBD00266511 /* SceneDelegate.swift */; };
 		CEF9B16F263A4DBD00266511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9B16E263A4DBD00266511 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEF44DD6263BDB2700E80843 /* CustomFontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFontViewController.swift; sourceTree = "<group>"; };
+		CEF44DD9263BDB3000E80843 /* ReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
 		CEF9B167263A4DBD00266511 /* Chapter02-InputForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter02-InputForm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF9B16A263A4DBD00266511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF9B16C263A4DBD00266511 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				CEF9B16A263A4DBD00266511 /* AppDelegate.swift */,
 				CEF9B16C263A4DBD00266511 /* SceneDelegate.swift */,
 				CEF9B16E263A4DBD00266511 /* ViewController.swift */,
+				CEF44DD6263BDB2700E80843 /* CustomFontViewController.swift */,
+				CEF44DD9263BDB3000E80843 /* ReadViewController.swift */,
 				CEF9B170263A4DBD00266511 /* Main.storyboard */,
 				CEF9B173263A4DC000266511 /* Assets.xcassets */,
 				CEF9B175263A4DC000266511 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			files = (
 				CEF9B16F263A4DBD00266511 /* ViewController.swift in Sources */,
 				CEF9B16B263A4DBD00266511 /* AppDelegate.swift in Sources */,
+				CEF44DD7263BDB2700E80843 /* CustomFontViewController.swift in Sources */,
 				CEF9B16D263A4DBD00266511 /* SceneDelegate.swift in Sources */,
+				CEF44DDA263BDB3000E80843 /* ReadViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
