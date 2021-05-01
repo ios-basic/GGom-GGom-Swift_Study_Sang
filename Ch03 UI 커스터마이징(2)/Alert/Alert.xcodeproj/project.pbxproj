@@ -13,6 +13,11 @@
 		CE2ACB1F263D618800675264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2ACB1D263D618800675264 /* Main.storyboard */; };
 		CE2ACB21263D618A00675264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2ACB20263D618A00675264 /* Assets.xcassets */; };
 		CE2ACB24263D618A00675264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2ACB22263D618A00675264 /* LaunchScreen.storyboard */; };
+		CE2ACB31263D63AB00675264 /* MapAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ACB2C263D63AA00675264 /* MapAlertViewController.swift */; };
+		CE2ACB32263D63AB00675264 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ACB2D263D63AB00675264 /* MapKitViewController.swift */; };
+		CE2ACB33263D63AB00675264 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ACB2E263D63AB00675264 /* ListViewController.swift */; };
+		CE2ACB34263D63AB00675264 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ACB2F263D63AB00675264 /* ImageViewController.swift */; };
+		CE2ACB35263D63AB00675264 /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ACB30263D63AB00675264 /* ControlViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		CE2ACB20263D618A00675264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2ACB23263D618A00675264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2ACB25263D618A00675264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2ACB2C263D63AA00675264 /* MapAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAlertViewController.swift; sourceTree = "<group>"; };
+		CE2ACB2D263D63AB00675264 /* MapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		CE2ACB2E263D63AB00675264 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CE2ACB2F263D63AB00675264 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		CE2ACB30263D63AB00675264 /* ControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				CE2ACB19263D618800675264 /* SceneDelegate.swift */,
 				CE2ACB1B263D618800675264 /* ViewController.swift */,
 				CE2ACB1D263D618800675264 /* Main.storyboard */,
+				CE2ACB30263D63AB00675264 /* ControlViewController.swift */,
+				CE2ACB2F263D63AB00675264 /* ImageViewController.swift */,
+				CE2ACB2E263D63AB00675264 /* ListViewController.swift */,
+				CE2ACB2C263D63AA00675264 /* MapAlertViewController.swift */,
+				CE2ACB2D263D63AB00675264 /* MapKitViewController.swift */,
 				CE2ACB20263D618A00675264 /* Assets.xcassets */,
 				CE2ACB22263D618A00675264 /* LaunchScreen.storyboard */,
 				CE2ACB25263D618A00675264 /* Info.plist */,
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2ACB31263D63AB00675264 /* MapAlertViewController.swift in Sources */,
+				CE2ACB32263D63AB00675264 /* MapKitViewController.swift in Sources */,
+				CE2ACB33263D63AB00675264 /* ListViewController.swift in Sources */,
+				CE2ACB34263D63AB00675264 /* ImageViewController.swift in Sources */,
 				CE2ACB1C263D618800675264 /* ViewController.swift in Sources */,
 				CE2ACB18263D618800675264 /* AppDelegate.swift in Sources */,
+				CE2ACB35263D63AB00675264 /* ControlViewController.swift in Sources */,
 				CE2ACB1A263D618800675264 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
