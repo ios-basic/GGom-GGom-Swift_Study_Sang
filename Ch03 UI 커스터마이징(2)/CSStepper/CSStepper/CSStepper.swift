@@ -8,6 +8,14 @@
 import UIKit
 
 class CSStepper: UIView {
+    override public func layoutSubviews() {
+        super.layoutSubviews()
+        let btnWidth = self.frame.height
+        let lblWidth = self.frame.width - (btnWidth * 2)
+        self.leftBtn.frame = CGRect(x: 0, y: 0, width: btnWidth, height: btnWidth)
+        self.centerLabel.frame = CGRect(x: btnWidth, y: 0, width: lblWidth, height: btnWidth)
+        self.rightBtn.frame = CGRect(x: btnWidth + lblWidth, y: 0, width: btnWidth, height: btnWidth)
+    }
     
     public var leftBtn = UIButton(type: .system)
     public var rightBtn = UIButton(type: .system)
