@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE044FE62637814600A5EC49 /* fountainpen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE044FE52637814600A5EC49 /* fountainpen@2x.png */; };
 		CE146EF826379A49006B1DB4 /* memo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE146EF726379A49006B1DB4 /* memo.png */; };
+		CE1EBCD52640CE8D00978EB2 /* CSLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EBCD42640CE8D00978EB2 /* CSLogButton.swift */; };
 		CEA43E7226367F3A0032A06D /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA43E7126367F3A0032A06D /* MemoFormVC.swift */; };
 		CEA43E7526367F4E0032A06D /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA43E7426367F4E0032A06D /* MemoReadVC.swift */; };
 		CEA43E7F26368B880032A06D /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA43E7E26368B880032A06D /* MemoListVC.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		CE044FE52637814600A5EC49 /* fountainpen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fountainpen@2x.png"; sourceTree = "<group>"; };
 		CE146EF726379A49006B1DB4 /* memo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memo.png; sourceTree = "<group>"; };
+		CE1EBCD42640CE8D00978EB2 /* CSLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSLogButton.swift; sourceTree = "<group>"; };
 		CEA43E7126367F3A0032A06D /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
 		CEA43E7426367F4E0032A06D /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
 		CEA43E7E26368B880032A06D /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = SOURCE_ROOT; };
@@ -84,6 +86,7 @@
 				CEA43E8226368C1E0032A06D /* MemoCell.swift */,
 				CEA43E8626368CC60032A06D /* MemoData.swift */,
 				CE044FE52637814600A5EC49 /* fountainpen@2x.png */,
+				CE1EBCD42640CE8D00978EB2 /* CSLogButton.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1EBCD52640CE8D00978EB2 /* CSLogButton.swift in Sources */,
 				CEF8A60D26363F7700C19B05 /* MyMemory.xcdatamodeld in Sources */,
 				CEA43E8726368CC60032A06D /* MemoData.swift in Sources */,
 				CEA43E7F26368B880032A06D /* MemoListVC.swift in Sources */,
